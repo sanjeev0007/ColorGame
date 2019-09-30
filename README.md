@@ -10,3 +10,6 @@ Download or Clone it.
 
 
 Then open colorgame.html in browser(Chrome will be preferred).
+
+
+You will get exciting game.
