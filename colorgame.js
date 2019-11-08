@@ -24,20 +24,6 @@ easyBtn.addEventListener("click",function(){
         }
     }
 });
-hardBtn.addEventListener("click",function(){
-    easyBtn.classList.remove("selected");
-    hardBtn.classList.add("selected");
-    numSquare=6;
-    color=generaterandomColor(numSquare);
-    pickedColor=pickColor();
-    displayColor.textContent=pickedColor;
-    for(var i=0;i<squares.length;++i){
-        
-            squares[i].style.backgroundColor=color[i];
-        
-            squares[i].style.display="block";
-        
-    }
 })
 
 
